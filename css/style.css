@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  height: 100px;
+  background-color: #4EA0FF;
+  background-image: url(../img/pattern.png);
+  background-size: 30%;
+}
+
+main{
+  margin-top: 15px;
+}
+
+h1{
+  font-size: 38px;
+  line-height: 40px;
+}
+
+.higlight{
+  background-color: yellow;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.logo{
+  height: 50px;
+  margin-top: 40px;
+}
+
+.author{
+  color: #808080;
+  font-size: 16px;
+}
+
+.author-name{
+  color: #20A9E5;
+}
+
+.date{
+  color: #808080;
+  font-size: 12px;
+}
+
+.photo, .content{
+  margin-top: 20px;
+}
+
+.photo .caption{
+  font-size: 12px;
+}
+
+.content ul{
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+.content table{
+  text-align: left;
+  border-spacing: 0;
+  margin-bottom: 20px;
+}
+
+.content table thead{
+  background-color: #20A9E5;
+  color: #fff;
+}
+
+.content table th.text{
+  width: 50%;
+}
+
+.content table .odd{
+  background-color: #B1E5F2;
+}
+
+footer{
+  margin-top: 20px;
+}
+
+footer h4{
+  color: #808080;
+}
+
+footer .image{
+  width: 230px;
+  height: 160px;
+  background-color: yellowgreen;
+  background-size: cover;
+  margin: 10px 0;
+}
+
+footer h3{
+  color: #fff;
+  line-height: 50px;
+  margin-left: 15px;
+}
+
+#image-monitor{
+  background-image: url(../img/monitor.jpg);
+}
+
+#image-graph{
+  background-image: url(../img/graph.jpg);
+}
